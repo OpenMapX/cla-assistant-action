@@ -1,3 +1,11 @@
+> **OpenMapX fork.** This is a thin fork of the (archived, Node 20–only)
+> [`contributor-assistant/github-action`](https://github.com/contributor-assistant/github-action)
+> `v2.6.1`. The **only** change vs. upstream is `runs.using` bumped from
+> `node20` to `node24` (`action.yml`) so it isn't on a deprecated runtime;
+> behaviour is otherwise identical. Maintained on the `node24` branch and
+> released as the **`v2.6.1-node24`** tag — pin to that (or its commit SHA).
+> Used by `OpenMapX/openmapx` for its CLA check.
+
 ![build](https://github.com/cla-assistant/github-action/workflows/build/badge.svg)
 
 # Handling CLAs and DCOs via GitHub Action
